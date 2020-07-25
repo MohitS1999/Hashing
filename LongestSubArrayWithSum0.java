@@ -16,6 +16,7 @@ class LongestSubArrayWithSum0{
 		    System.out.println(maxLen(ar,n));
 		}
 	}
+	//max length of longest sub array
 	public static int maxLen(int[] arr, int N)
     {
         // Your code here
