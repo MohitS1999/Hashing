@@ -23,6 +23,7 @@ class LongestSubArrayWithSumDivisibleByk{
 		        if (hm.containsKey(mod))
 		        {
 		            int check=i-hm.get(mod)+1;
+			    //Max length of subarrya
 		            if (max<check) max=check;
 		        }
 		        if (!hm.containsKey(mod))
