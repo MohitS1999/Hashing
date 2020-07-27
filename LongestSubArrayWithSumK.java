@@ -21,6 +21,7 @@ class LongestSubArrayWithSumK{
 		            int x=i-hm.get(sum-k)+1;
 		            if (max<x) max=x;
 		        }
+			// if hashmap doesnt contains then we insert it in hashmap
 		        if (!hm.containsKey(sum))
 		            hm.put(sum,i+1);
 		    }
