@@ -23,6 +23,7 @@ class LoveForTheTwins{
 		        else
 		            hm.put(a,1);
 		    }
+		    //cnt the value
 		    int cnt=0;
 		    for (Map.Entry<Integer,Integer> entry:hm.entrySet()){
 		        cnt+=entry.getValue()/2;
