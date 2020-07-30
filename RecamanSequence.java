@@ -15,6 +15,7 @@ class RecamanSequence{
 		    ar[0]=0;
 		    for (int i=1;i<n;i++){
 		        int k=(ar[i-1]-i);
+			//check set contains k or not
 		        if ((k>0)&&(!set.contains(k)))
 		        {
 		            ar[i]=ar[i-1]-i;
