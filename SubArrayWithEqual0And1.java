@@ -16,7 +16,7 @@ class SubArrayWithEqual0And1{
 		        ar[i]=sc.nextInt();
 			//makes all the 0 -> -1
 			for (int i=0;i<ar.length;i++)
-            ar[i]=(ar[i]==0) ? -1 : 1;
+            		ar[i]=(ar[i]==0) ? -1 : 1;
 		    System.out.println(count(ar,n));
 		}
 	}
