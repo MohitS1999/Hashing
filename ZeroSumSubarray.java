@@ -16,6 +16,7 @@ class ZeroSumSubarray{
 		    System.out.println(count(ar,n));
 		}
 	}
+	//count the subarray whose sum is zero
 	public static int count(int ar[],int n){
 	    HashMap<Integer,Integer> hm=new HashMap<>();
 	    int sum=0;
